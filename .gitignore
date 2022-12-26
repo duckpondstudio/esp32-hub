@@ -10,7 +10,17 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /[Uu]serSettings/
+
+# exclude specified asset folders 
 /[Aa]ssets/[Gg]itSubmodules/
+
+# exclude Asset Store assets from open-source repo
+# Best HTTP/2 - Tivadar György Nagy 
+#   https://assetstore.unity.com/packages/tools/network/best-http-2-155981
+/[Aa]ssets/Best HTTP/ 
+# Arduino Bluetooth Plugin - Tony Abou Zaidan 
+#   https://assetstore.unity.com/packages/tools/input-management/arduino-bluetooth-plugin-98960
+/[Aa]ssets/BluetoothAPI/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
