@@ -1,0 +1,3 @@
+[submodule "Assets/Git Submodules/ScoketIOUnity"]
+	path = Assets/Git Submodules/ScoketIOUnity
+	url = https://github.com/itisnajim/SocketIOUnity
